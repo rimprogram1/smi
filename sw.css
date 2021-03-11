@@ -1,0 +1,68 @@
+body {
+	  
+  background-image: url("text.jpeg");
+ 
+}
+
+h1{
+   color:red; 
+   text-align:center;
+   ; 
+    }
+
+#id1{
+    color:red;
+    text-align:center;
+    }    
+h1.class1{
+    color:green;
+    text-align:left;
+    }  
+
+p.cl1{
+    color:green;
+    }    
+p.cl2{
+    color:rgb(60, 179, 113);
+    }    
+p.cl3{
+    color:#3cb371;
+    }
+/**exo 2 question 3**/
+a{
+  text-decoration:none;  
+    }
+/**exo 2 question 4**/    
+p.maj1{
+    text-transform:uppercase;
+    } 
+/**exo 2 question 5**/   	
+p.int1{
+    line-height:3;
+    }  
+   /**exercice 2 question 7**/
+  p.times{
+  font-family: Times New Roman;
+  font-size: 20px;
+  color:blue;
+}
+p.arial{
+  font-family: Arial;
+  font-size: 20px;
+  font-style: italic;
+  color:pink;
+}
+    /**exercice 3 question 1**/
+   
+   
+
+/**exercice **/
+div.class1{
+
+  border-style:solid;
+  border-width:medium;
+  border-color:red;
+ 
+  margin:25px 50px 75px 100px;
+  padding:50px 30px 50px 90px;
+} 

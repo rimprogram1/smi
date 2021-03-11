@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>siteweb</title>
+        <meta charset="UTF-8" />
+                <link rel="stylesheet" type="text/css" href="sw.css">
+                       <script src="jv.js"></script>
+
+        <style>
+		
+                H1 {color:purple;
+                text-align:left;}
+                </style>
+            
+        </head>
+        <body>
+            <h1>Les mathematiques sont une gymnastique de lesprit et une preparation a la philosophie.</h1>
+            <h1 id='id1'>Quelques notions de base des mathematiques </h1>
+            <h1 class='class1'> Sommaire:<br>
+                                             -Table de multiplication.<br>
+                                             -Les nombres premiers.<br>
+                                             -Systemes lineaires a deux equations et deux inconnus<h1>
+       <p class='cl1'> 1-Table de multiplication.</p>
+           
+            <h2 class='class1'>La table de multiplication est un tableau recapitulatif de toutes les donnees numeriques concernant les multiplications, presente de facon a les apprendre et les retenir facilement. <h2>
+           <div>Pour resumer : comprendre l utilite de la multiplication (simplification d additions) visualiser les tables (vision geometrique) calculer de tres nombreuses multiplications (memorisation par une activite intellectuelle de calcul)<br>
+                            Ci dessous vous aller trouver un tableau de multiplication a apprendre.</div> <br>
+                                                    <div>
+         <table border cellpadding="10" cellspacing="5" >
+         <script language="javascript">
+              document.writeln("<tr><th></th>");
+               for (i=0 ; i <= 9 ; i++) {
+                                   document.writeln("<th>"+i+"</th>");
+                   }
+              document.writeln("</tr>");
+                   for (i=0 ; i<= 9 ;  i++) {
+                                         document.writeln("<tr><th>"+i+"</th>");
+                       for (j=0 ; j <= 9 ; j++) {
+                                               document.writeln("<td>"+i*j+"</td>");
+                          }
+             document.writeln("</tr>");
+    }
+ </script>
+ </table>
+    </div>   
+             <p class='cl2'>2-Les nombres premiers.</p>   
+             
+            <p class='maj1'>On dit d un nombre entier qu il est premier lorsque ses seuls diviseurs sont lunite et lui-meme. En termes plus images, un nombre premier est insecable, au sens ou il n admet pas de factorisation non triviale . <br>
+                             Les nombres premiers ont une importance centrale en arithmetique, car tout nombre se decompose de faCon unique en produit d un ou de plusieurs facteurs premiers </p>   
+                              <h2 class='class1'> Exercice dapplication:saisir nimporte quelle nombre et verifier si il est premier ou pas. <h2>                                                                                                                                                                                                                      </p>
+             <input type="text" id="prem1" size="15" value="Entrer votre nombre:")> </input> &nbsp;
+
+     <input type="button" value="Tester premier" onclick="premier1('prem1','prem2')"></input>
+     <input type="text" id="prem2" size="5" > </input> 
+      </div>
+      <div> <p class='cl3'>
+                 <p class='cl3'>
+                          -Systemes lineaires a deux equations et deux inconnus.</p> 
+            Toute equation lineaire a deux inconnues est equivalente a une equation lineaire normale. Une equation de droite a une infinite de solutions, on ne peut pas toutes les ecrire. ... On dit que la premiere est notre inconnue principale et que la seconde est notre inconnue secondaire.</p> 
+            <p class='int1'>
+                 <div>   
+  
+      <table border cellspacing="0" bgcolor="#ffffff"><TR>
+ <form name="s">
+ <table cellspacing="0">
+ <tr>
+ <td><input type="text" id= "aa" name="a" size="3" value="1"> &nbsp;x&nbsp;&nbsp;+</td>
+ <td><input type="text" id= "bb" name="b" size="3" value="2"> &nbsp;y&nbsp;&nbsp; </td>
+ <td> = &nbsp;<input type="text"id= "cc" name="c" size="3" value="3"></td></tr>
+
+ <tr>
+ <td><input type="text" id= "dd" name="d" size="3" value="4"> &nbsp;x&nbsp;&nbsp;+</td>
+ <td><input type="text" id= "ee" name="e" size="3" value="5"> &nbsp;y&nbsp;&nbsp; </td>
+ <td> = &nbsp;<input type="text" id= "ff" name="f" size="3" value="6"></td></tr>
+ </table>
+ </form>
+ </TD></TR></TABLE>
+ <form name="rep">
+ <input type="button" value="Resoudre" onclick="repondre()"> <br>
+ <textarea id "r" name="result" rows="4" cols="52">
+ </textarea>
+ <input type="text" id= "fr" name="fe" size="3">
+ <p>
+ </form>
+            
+            <p class='times'>Merci de votre visite et noublier pas;Les mathematiques sont une gymnastique de l esprit  </p>
+            <p class='arial'>Fait par:Rim Belaiche <br>
+                             Section:A0102<br>
+                                SMI              
+                            </p>
+			
+          
+
+
+			
+            </body>
+            </html>
